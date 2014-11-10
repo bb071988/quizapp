@@ -1,0 +1,99 @@
+* {
+	border:2px blue solid;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-size: 40px;
+	
+}
+
+.bio {
+	color:black;
+	font-size:30px;
+	margin:20px;
+	text-align: center;
+	display:inline-block;
+
+}
+
+.quiz {
+	color:blue;
+	width:45%;
+	display:inline-block;
+	position:relative;
+	vertical-align: bottom;
+}
+
+.quiz ul {
+	display:inline-block;
+}
+
+.quiz p {
+	font-size:40px;
+	color:red;
+	margin: 1px;
+}
+
+
+
+li {
+	color:green;
+	font-size:30px;
+}
+
+.rsdiv {
+	
+	}
+
+
+/***********************  Positions  *****************************/
+
+
+
+
+.rspick {
+	display:inline-block;
+	position:relative;
+}
+
+
+.rsdiv {
+	display:inline-block;
+
+}
+
+
+.quizbody img {
+	display:inline-block;
+	max-height:300px; 
+	width:300px; 
+	margin:30px;
+}
+
+
+
+button {
+	display:block;
+	text-align: center;
+	border-radius: 10%;
+	width:100px;
+	height:55px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+
+button:hover {
+	background-color: blue;
+}
+
+li:hover{
+	background-color:yellow;
+	}
+
+.picked {
+	font-size:40px;
+}
+

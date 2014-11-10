@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guitar Quiz App</title>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="css/style.css"/> 
+
+		<!-- JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+</head>
+<body>
+	<h1>Guitar Quiz App </h1>
+
+	<div class="bio">This quiz allows you to test your knowledge of famous guitars used by famous musicians.  The app will give you a little background on the musician and show you their picture.  Your job is to guess the name of their most famous guitar.  The quiz will give you four possible names for each musician's guitar for you to choose from. <br>
+	 Click on the guitar name you think is right to make your guess.<br>
+		<strong>Good Luck!</strong>
+	</div>
+
+
+ 	<div class = "quizbody">
+		
+		<img id="artist" src="img/smiley.jpg" alt="Smiley face" >
+
+		<div class="quiz">
+			<p class="quiztitle">What guitar did this Artist make famous?</p>
+			<ul> 
+					<li>You will click here to select an answer</li>
+
+			</ul>
+
+		</div>
+
+		<img id="guitar" src="img/smiley.jpg" alt="Smiley face" > 
+		
+	</div>
+
+	<button id="gotIt">Got It <br>Click here to Play</button>
+	
+</body>
+
+</html>
+
+<!-- 
+	Initial display comes up with instructions under the guitar quiz app logo
+	Similar to hot or cold app user clicks a got it button to make the instructions go away
+		then the guitar name options come up along with a picture of the artist without his guitar.
+
+	User picks the guitar name answer by clicking on it.
+
+		onclick display the right answer e.g., name of the guitar and tell them right or wrong.
+
+		display a new picture of the artist playing the guitar.
+
+-->
