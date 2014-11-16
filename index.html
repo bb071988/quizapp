@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="css/style.css"/> 
 
 		<!-- JavaScript -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		
 		<script type="text/javascript" src="js/app.js"></script>
 
 </head>
@@ -16,14 +17,25 @@
 	<h1>Guitar Quiz App </h1>
 
 	<div class="bio">This quiz allows you to test your knowledge of famous guitars used by famous musicians.  The app will give you a little background on the musician and show you their picture.  Your job is to guess the name of their most famous guitar.  The quiz will give you four possible names for each musician's guitar for you to choose from. <br>
+	
 	 Click on the guitar name you think is right to make your guess.<br>
-		<strong>Good Luck!</strong>
+	 Click the <strong>Next Question</strong> button to get started.
+		<strong>Good Luck!</strong><br><br>All images are property of their respective owners.  As this is programming exercise the text is generally copied from Wikipedia. <br>
 	</div>
 
 
  	<div class = "quizbody">
 		
-		<img id="artist" src="img/smiley.jpg" alt="Smiley face" >
+		
+			
+				<img id="artist" src="img/smiley.jpg" alt="" >
+		
+			
+			<div class="feedback">
+		test feedback
+		
+			</div>
+	
 
 		<div class="quiz">
 			<p class="quiztitle">What guitar did this Artist make famous?</p>
@@ -34,11 +46,13 @@
 
 		</div>
 
-		<img id="guitar" src="img/smiley.jpg" alt="Smiley face" > 
+		<img id="guitar" src="img/smiley.jpg" alt="" > 
 		
 	</div>
 
-	<button id="gotIt">Got It <br>Click here to Play</button>
+	<button id="gotIt">Next <br>Question</button>
+
+
 	
 </body>
 

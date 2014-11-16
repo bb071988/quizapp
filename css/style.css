@@ -1,6 +1,3 @@
-* {
-	border:2px blue solid;
-}
 
 h1 {
 	color: red;
@@ -39,8 +36,9 @@ h1 {
 
 
 li {
-	color:green;
+	color:black;
 	font-size:30px;
+	list-style-type:none;
 }
 
 .rsdiv {
@@ -86,7 +84,7 @@ button {
 	}
 
 button:hover {
-	background-color: blue;
+	background-color: yellow;
 }
 
 li:hover{
@@ -94,6 +92,17 @@ li:hover{
 	}
 
 .picked {
+	font-size:40px;
+}
+
+.feedback {
+	background-color: white;
+	display:none;
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:100px;
+	bottom:100px;
 	font-size:40px;
 }
 
